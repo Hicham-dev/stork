@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'Amazon ember';
+    src: url(/fonts/Amazon_Ember_Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Amazon ember';
+    src: url(/fonts/Amazon_Ember_Bold.ttf);
+    font-weight: bold;
+}
+
+.body {
+    background-color: white;
+    font-family: 'Amazon ember';
+    font-size: 13px;
+    color: black;
+}
+
+.m-t-20 {
+    margin-top: 20px;
+}

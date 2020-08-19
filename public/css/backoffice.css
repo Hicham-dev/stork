@@ -1,0 +1,168 @@
+@font-face {
+    font-family: 'Amazon ember';
+    src: url(/fonts/Amazon_Ember_Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Amazon ember';
+    src: url(/fonts/Amazon_Ember_Bold.ttf);
+    font-weight: bold;
+}
+
+body {
+    font-family: 'Amazon ember';
+    font-size: 13px;
+    color: black;
+    background-color: #f2f3f3;
+}
+
+.header {
+    background-color: black;
+    color: white;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+.logo, .left-menu, .right-menu {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 10px 25px;
+}
+
+.left-menu {
+    vertical-align: top;
+    margin-top: 7px;
+}
+
+.right-menu {
+    margin: 7px 25px;
+    position: absolute;
+    right: 0;
+}
+
+.left-menu .btn-group, .right-menu .btn-group {
+    margin: 0 10px;
+}
+
+.left-menu .btn-group .btn, .right-menu .btn-group .btn {
+    background: transparent;
+    border: 0;
+    padding: 0;
+    color: white;
+    font-size: 13px;
+}
+
+.left-menu .btn-group .btn {
+    background: transparent;
+    border: 0;
+    padding: 0;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.left-menu .btn-group .btn:focus, .right-menu .btn-group .btn:focus {
+    box-shadow: none;
+}
+
+.left-menu .btn-group .dropdown-item, .right-menu .btn-group .dropdown-item {
+    font-size: 13px;
+}
+
+.footer .left-menu, footer .right-menu {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 0px 25px 5px 25px;
+}
+
+.footer .right-menu p {
+    font-size: 11px;
+    font-weight: normal;
+    color: gray;
+} 
+
+.footer .right-menu p a {
+    margin: 0 5px;
+    color: white;
+    text-decoration: none;
+}
+
+.menu {
+    background-color: white;
+    width: 220px;
+    height: calc(100% - 57px);
+    position: fixed;
+    font-size: 14px;
+    padding: 10px 15px;
+    overflow: scroll;
+}
+.menu .menu-item {
+    margin: 10px 20px;
+}
+
+.menu .menu-item a{
+    text-decoration: none;
+    color: black;
+}
+
+.menu .dashboard a{
+    color : #ec7211;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.menu .sub-menu {
+    margin: 10px 0px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.menu .sub-menu i {
+    margin-right: 3px
+}
+
+.body {
+    margin-left: 220px;
+}
+
+.card {
+    -webkit-box-shadow: 1px 1px 1px 0px rgba(104, 104, 104, 0.5);
+    -moz-box-shadow: 1px 1px 1px 0px rgba(104, 104, 104, 0.5);
+    box-shadow: 1px 1px 1px 0px rgba(104, 104, 104, 0.5);
+    border-radius: 0;
+}
+
+.delevery-card-button {
+    border: 1px solid #d5dbdb;
+    padding: 7px 10px;
+    border-radius: 5px;
+    display: block;
+    margin: 5px 0px;
+}
+
+.delevery-card-button span {
+    position: absolute;
+    right: 25px;
+}
+
+.m-t-20 {
+    margin-top: 20px;
+}
+
+.card-sum-up {
+    font-weight: bold;
+    color: #1d8102;
+}
+
+.card-sum-down {
+    font-weight: bold;
+    color: #cc0000;
+}
